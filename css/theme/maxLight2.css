@@ -1,10 +1,10 @@
+@charset "UTF-8";
 /**
- * Solarized Light theme for reveal.js.
+ * Edits by Max Seawright
+ * based on
+ * Solarized Dark theme for reveal.js.
  * Author: Achim Staebler
- * Iosevka ss08 changes by Max Seawright
  */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&subset=greek,greek-ext,latin-ext");
-@import url(../../lib/font/iosevkaPP/iosevkaPP.css);
 /**
  * Solarized colors by Ethan Schoonover
  */
@@ -20,7 +20,7 @@ body {
   background-color: #fdf6e3; }
 
 .reveal {
-  font-family: "Open Sans", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”, “Fira Sans”, “Droid Sans”, “Helvetica Neue”, sans-serif;
   font-size: 40px;
   font-weight: normal;
   color: #657b83; }
@@ -51,7 +51,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #586e75;
-  font-family: "Open Sans", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”, “Fira Sans”, “Droid Sans”, “Helvetica Neue”, sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
@@ -151,15 +151,15 @@ body {
   margin: 20px auto;
   text-align: left;
   font-size: 0.55em;
-  font-family: "Iosevka PP", monospace;
-  font-weight: 300;
+  font-family: monospace;
+  font-weight: normal;
   line-height: 1.2em;
   word-wrap: break-word;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
 
 .reveal code {
-  font-family: "Iosevka PP", monospace;
-  font-weight: 300;
+  font-family: monospace;
+  font-weight: normal;
   text-transform: none; }
 
 .reveal pre code {
