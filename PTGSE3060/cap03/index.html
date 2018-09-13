@@ -14,23 +14,23 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/solarizedCharis.css" id="theme">
+		<link rel="stylesheet" href="../../css/reveal.css">
+		<link rel="stylesheet" href="../../css/theme/maxLight.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="../../lib/css/zenburn.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../css/print/pdf.css' : '../../css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 
 		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
+		<script src="../../lib/js/html5shiv.js"></script>
 		<![endif]-->
 	</head>
 
@@ -42,9 +42,9 @@
 			<div class="slides">
 				<!-- Title slide -->
 				<section data-markdown>
-					## *Portuleiro* Cap. 13, pt. 1
-					### PTGSE 3060
-					[Dr. Seawright](https://faculty.utah.edu/u0230662-Max_Seawright/hm/index.hml)
+					# *Portuleiro*
+					### Capítulo 13, parte 1
+					PTGSE 3060 | [Dr. Seawright](https://faculty.utah.edu/u0230662-Max_Seawright/hm/index.hml)
 				</section>
 
 				<section data-markdown>
@@ -64,7 +64,7 @@
 				</section>
 				
 				<section data-markdown>
-					It was odd *that he didn't telephone*.
+					It was odd *that he didn&rsquo;t telephone*.
 
 					I was surprised *by what you said*.
 				</section>
@@ -74,17 +74,17 @@
 				</section>
 				
 				<section style="text-align: left;">
-					<p><b>W</b><span class="fragment fade-right">ishes</span></p>
+					<p><b>W</b><span class="fragment fade-right" data-fragment-index="1">ishes</span></p>
 					
-					<p><b>E</b><span class="fragment fade-right">motions</span></p>
+					<p><b>E</b><span class="fragment fade-right" data-fragment-index="1">motions</span></p>
 				
-					<p><b>I</b><span class="fragment fade-right">mpersonal</span></p>
+					<p><b>I</b><span class="fragment fade-right" data-fragment-index="1">mpersonal</span></p>
 
-					<p><b>R</b><span class="fragment fade-right">equests</span></p>
+					<p><b>R</b><span class="fragment fade-right" data-fragment-index="1">equests</span></p>
 				
-					<p><b>D</b><span class="fragment fade-right">oubts</span></p>
+					<p><b>D</b><span class="fragment fade-right" data-fragment-index="1">oubts</span></p>
 				
-					<p><b>O</b><span class="fragment fade-right">xalá</span></p>
+					<p><b>O</b><span class="fragment fade-right" data-fragment-index="1">xalá</span></p>
 				</section>
 				
 				<section>
@@ -121,19 +121,17 @@
 				</section>
 				
 				<section data-markdown style="text-align: left;">
-					HTML Presentation Framework: [reveal.js](https://github.com/hakimel/reveal.js/)
-					
-					Fonts: [Charis SIL](https://software.sil.org/charis/), [`Iosevka (Stylistic Set ss08)`](https://github.com/be5invis/Iosevka)
-					
-					IPA Keyboard: [&ldquo;Type IPA Phonetic Symbols&rdquo;](http://ipa.typeit.org/full/)
+					Presentation Framework: [reveal.js](https://github.com/hakimel/reveal.js/)
+										
+					IPA Resources: [&ldquo;Help:IPA/Portuguese&rdquo;](https://en.wikipedia.org/wiki/Help:IPA/Portuguese), [&ldquo;Type IPA Phonetic Symbols&rdquo;](http://ipa.typeit.org/full/)
 				</section>
 
 			</div>
 
 		</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+		<script src="../../lib/js/head.min.js"></script>
+		<script src="../../js/reveal.js"></script>
 
 		<script>
 
@@ -148,13 +146,13 @@
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/search/search.js', async: true },
-					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true }
+					{ src: '../../lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../../plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../../plugin/search/search.js', async: true },
+					{ src: '../../plugin/zoom-js/zoom.js', async: true },
+					{ src: '../../plugin/notes/notes.js', async: true }
 				]
 			});
 
