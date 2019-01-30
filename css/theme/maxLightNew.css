@@ -4,7 +4,8 @@
  * Solarized Dark theme for reveal.js.
  * Author: Achim Staebler
  */
-@import url(../../lib/font/charis/charis.css);
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans|Judson');
+
 /**
  * Solarized colors by Ethan Schoonover
  */
@@ -20,7 +21,7 @@ body {
   background-color: #fdf6e3; }
 
 .reveal {
-  font-family: "Charis", serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 40px;
   font-weight: normal;
   color: #657b83; }
@@ -48,16 +49,7 @@ body {
 .reveal h3,
 .reveal h4,
 .reveal h5,
-.reveal h6 {
-  margin: 0 0 20px 0;
-  color: #586e75;
-  font-family: "Charis", serif;
-  font-weight: normal;
-  line-height: 1.2;
-  letter-spacing: normal;
-  text-transform: normal;
-  text-shadow: none;
-  word-wrap: break-word; }
+.reveal h6,
 
 .reveal h1 {
   font-size: 3.77em; }
@@ -158,7 +150,12 @@ body {
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
 
 .reveal code {
-  font-family: "Fira Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: normal;
+  text-transform: none; }
+  
+.reveal ipa {
+  font-family: 'Judson', serif;
   font-weight: normal;
   text-transform: none; }
 
