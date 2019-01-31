@@ -82,7 +82,8 @@ body {
 
 .reveal strong,
 .reveal b {
-  font-weight: bold; }
+  font-weight: bold;
+  color: #93a1a1; }
 
 .reveal em {
   font-style: italic; }
@@ -189,17 +190,18 @@ body {
 
 .reveal sup {
   vertical-align: super;
-  font-size: smaller; }
+  font-size: 0.6em; }
 
 .reveal sub {
   vertical-align: sub;
-  font-size: smaller; }
+  font-size: 0.6em; }
 
 .reveal small {
   display: inline-block;
   font-size: 0.6em;
   line-height: 1.2em;
-  vertical-align: top; }
+  vertical-align: top;
+  color: #586e75; }
 
 .reveal small * {
   vertical-align: top; }
@@ -273,5 +275,16 @@ body {
   width: 90%;
   margin: 20px auto;
   text-align: left;
+  font-size: 0.6em;
   padding: 0.2em 0.5em 0.2em 2.5em;
   text-indent: -2em; }
+  
+.reveal chicago {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 0.6em;
+  padding: 0.25em 0.5em 0.25em 1.75em;
+  text-indent: -1.25em; }

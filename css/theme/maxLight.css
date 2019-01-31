@@ -282,5 +282,6 @@ body {
   width: 90%;
   margin: 20px auto;
   text-align: left;
-  padding: 0.2em 0.5em 0.2em 2.5em;
-  text-indent: -2em; }
+  font-size: 0.6em;
+  padding: 0.2em 0.5em 0.2em 3.5em;
+  text-indent: -3em; }
