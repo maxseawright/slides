@@ -1,10 +1,11 @@
 /**
  * Author: Max Seawright
  * based on
- * Tomorrow Night 80s
+ * Tomorrow Night
  * by Kris Kempson
  */
-@import url(../../lib/font/charis/charis.css);
+
+@import url("https://use.typekit.net/irl7amd.css");
 
 html * {
   color-profile: sRGB;
@@ -16,11 +17,11 @@ html * {
 body {
   background: #1d1f21;
   background-color: #1d1f21; }
-
+ 
 .reveal {
-  font-family: "Charis", serif;
+  font-family: plantin, serif;
   font-size: 40px;
-  font-weight: normal;
+  font-weight: 300;
   color: #c5c8c6; }
 
 ::selection {
@@ -46,7 +47,14 @@ body {
 .reveal h3,
 .reveal h4,
 .reveal h5,
-.reveal h6,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: #969896;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: normal;
+  word-wrap: break-word; }
 
 .reveal h1 {
   font-size: 3.77em; }
@@ -79,10 +87,16 @@ body {
 
 .reveal strong,
 .reveal b {
-  font-weight: bold; }
+  font-weight: 600; }
 
 .reveal em {
-  font-style: italic; }
+  font-style: italic;
+  font-weight: 300; }
+  
+.reveal emx {
+  font-style: italic;
+  font-weight: 300;
+  background: #373b41; }
 
 .reveal ol,
 .reveal dl,
@@ -273,13 +287,3 @@ body {
   font-size: 0.6em;
   padding: 0.2em 0.5em 0.2em 2.5em;
   text-indent: -2em; }
-  
-.reveal chicago {
-  display: block;
-  position: relative;
-  width: 90%;
-  margin: 20px auto;
-  text-align: left;
-  font-size: 0.6em;
-  padding: 0.25em 0.5em 0.25em 1.75em;
-  text-indent: -1.25em; }
