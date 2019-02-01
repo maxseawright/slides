@@ -209,6 +209,12 @@ body {
 
 .reveal small * {
   vertical-align: top; }
+  
+.reveal trajanpro {
+  display: inline-block;
+  line-height: 1.2em;
+  color: #586e75;
+  font-family: "trajan-pro-3", serif; }
 
 /*********************************************
  * LINKS
