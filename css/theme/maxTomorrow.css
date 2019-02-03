@@ -286,4 +286,5 @@ body {
   text-align: left;
   font-size: 0.6em;
   padding: 0.2em 0.5em 0.2em 2.5em;
-  text-indent: -2em; }
+  text-indent: -2em;
+  word-wrap: break-word; }
