@@ -6,6 +6,7 @@
  */
 
 @import url("https://use.typekit.net/irl7amd.css");
+@import url(https://maxseawright.github.io/slides/lib/font/iosevkaPP/iosevkaPP.css);
 
 html * {
   color-profile: sRGB;
@@ -128,7 +129,7 @@ body {
   font-weight: bold; }
 
 .reveal dd {
-  margin-left: 40px; }
+  margin-left: 2em; }
 
 .reveal blockquote {
   display: block;
@@ -154,14 +155,15 @@ body {
   margin: 20px auto;
   text-align: left;
   font-size: 0.55em;
-  font-family: monospace;
+  font-family: "Iosevka PP";
   font-weight: normal;
   line-height: 1.2em;
   word-wrap: break-word;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
   
 .reveal code {
-  font-family: monospace;
+  font-family: "Iosevka PP";
+  font-weight: 300;
   text-transform: none; }
 
 .reveal pre code {
