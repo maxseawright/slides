@@ -4,7 +4,7 @@ Built with reveal.js --- "a framework for easily creating beautiful presentation
 
 [Live demo](http://revealjs.com/).
 
-[Source code and documentation](https://github.com/hakimel/reveal.js)
+[Source code and documentation](https://github.com/hakimel/reveal.js).
 
 ## License
 
