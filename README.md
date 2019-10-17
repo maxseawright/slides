@@ -1,6 +1,6 @@
 # Slides
 
-Built with reveal.js — "a framework for easily creating beautiful presentations using HTML."
+Built with reveal.js — “a framework for easily creating beautiful presentations using HTML.”
 
 [Live demo](http://revealjs.com/).
 
